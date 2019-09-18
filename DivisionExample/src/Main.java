@@ -13,8 +13,14 @@ public class Main {
     }
 
     public static void division(int numerator, int divisor) {
-        float result = numerator / divisor;
-        System.out.println("Result of the division is: " + result);
+        try {
+            float result = numerator / divisor;
+            System.out.println("Result of the division is: " + result);
+        } catch (Exception e) {
+            System.out.println("Please try again");
+        }
+
+
     }
 
 }

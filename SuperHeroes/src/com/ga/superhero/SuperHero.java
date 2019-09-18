@@ -33,7 +33,7 @@ public class SuperHero {
         System.out.println("Your score is " + score);
         if (score > 2) {
             try {
-            FileWriter triviaWinner = new FileWriter("/Users/mkj/Desktop/MYAMEX/Homework/week04/02-Tuesday/homework12-week4-exceptions/SuperHeroes/src/output.txt");
+            FileWriter triviaWinner = new FileWriter("./input.txt");
             triviaWinner.write("Congrats, " + System.getProperty("user.name") + ", you won!");
             triviaWinner.close();
                 System.out.println("Successfully posted game scores to output.txt");
@@ -43,7 +43,7 @@ public class SuperHero {
 
         } else {
             try {
-                FileWriter triviaLoser = triviaLoser = new FileWriter("/Users/mkj/Desktop/MYAMEX/Homework/week04/02-Tuesday/homework12-week4-exceptions/SuperHeroes/src/output.txt");
+                FileWriter triviaLoser = triviaLoser = new FileWriter("./output.txt");
                 triviaLoser.write("Sorry, " + System.getProperty("user.name") + ", you lost.                    Better luck next time!");
                 triviaLoser.close();
 
@@ -52,7 +52,6 @@ public class SuperHero {
             } finally {
                 System.out.println("Successfully posted game scores to output.txt");
             }
-
 
         }
         }
@@ -67,7 +66,7 @@ public class SuperHero {
                 System.out.println("Which superhero has an unbreakable Lasso of Truth? ");
                 break;
             case "Superman":
-                System.out.println("Which superhero's real name is Kal-El'? ");
+                System.out.println("Which superhero's birth name is Kal-El'? ");
                 break;
             case "Batman":
                 System.out.println("Which superhero is really just a rich guy with a lot of free time? ");
