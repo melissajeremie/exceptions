@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DivisionExample/DivisionExample.iml" filepath="$PROJECT_DIR$/DivisionExample/DivisionExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IndexOutOfBounds/IndexOutOfBounds.iml" filepath="$PROJECT_DIR$/IndexOutOfBounds/IndexOutOfBounds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SuperHeroes/SuperHeroes.iml" filepath="$PROJECT_DIR$/SuperHeroes/SuperHeroes.iml" />
+    </modules>
+  </component>
+</project>
